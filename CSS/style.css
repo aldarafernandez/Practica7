@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0 !important;
+}
+.col-6{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    padding: 1em;
+    border: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+li a{
+    color: black !important;
+}
