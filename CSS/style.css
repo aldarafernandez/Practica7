@@ -1,8 +1,18 @@
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border-radius: 0 !important;
+    font-family: "Open Sans";
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-family: "Cairo Play";
+}
+h1 a{
+    font-size: 2em !important;
+    font-weight: 700;
 }
 .col-6{
     margin: 0;
@@ -18,4 +28,7 @@ a{
 }
 li a{
     color: black !important;
+}
+a:hover{
+    text-decoration: underline;
 }

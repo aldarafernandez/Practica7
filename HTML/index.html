@@ -2,80 +2,91 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css" />
 </head>
 
 <body>
-
     <!-- Título de la web -->
     <header>
-        <nav class="navbar bg-body-tertiary">
+        <nav class="navbar bg-body-tertiary border-bottom">
             <div class="container-fluid d-flex justify-content-center">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <h1><a class="navbar-brand" href="./index.html" tabindex="1">CineClub</a></h1>
             </div>
         </nav>
-
     </header>
 
     <!-- Menú -->
     <nav>
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Portada</a>
+        <ul class="nav justify-content-center border-bottom" role="menu">
+            <li class="nav-item" role="menuitem">
+                <a class="nav-link active" aria-current="page" href="./index.html" tabindex="2">Portada</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Noticias</a>
+            <li class="nav-item" role="menuitem">
+                <a class="nav-link" href="./index.html#noticias" tabindex="3">Noticias</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Destacados</a>
+            <li class="nav-item" role="menuitem">
+                <a class="nav-link" href="./index.html#destacados" tabindex="4">Destacados</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Estrenos</a>
+            <li class="nav-item" role="menuitem">
+                <a class="nav-link" href="#" tabindex="5">Estrenos</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Crítica</a>
+            <li class="nav-item" role="menuitem">
+                <a class="nav-link" href="#" tabindex="6">Crítica</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Cartelera</a>
+            <li class="nav-item" role="menuitem">
+                <a class="nav-link" href="#" tabindex="7">Cartelera</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Nominadas</a>
+            <li class="nav-item" role="menuitem">
+                <a class="nav-link" href="#" tabindex="8">Nominadas</a>
             </li>
         </ul>
     </nav>
 
     <main class="container">
-
         <!-- Noticia principal -->
         <section class="row my-3 py-2">
             <article class="card mb-3 mt-3 col-12">
                 <div class="row g-0">
                     <div class="col-6">
-                        <img src="..." class="img-fluid rounded-start" alt="...">
+                        <img src="../img/estrenos.bmp" class="img-fluid rounded-start" alt="..." />
                     </div>
                     <div class="col-6">
                         <div class="card-body">
-                            <h3 class="card-title"><a href="">Card title</a></h3>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quaerat
-                                reprehenderit doloribus sunt impedit repudiandae tenetur nihil corporis modi debitis.
-                                Modi nesciunt dolorem sunt, veritatis aperiam aliquam est vel cum?
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet totam qui voluptatum
-                                quidem corporis, error nam consectetur iure voluptate magni rem. Rerum facere distinctio
-                                commodi in vero dolorem deleniti sequi!
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellendus ab eius
-                                illo accusamus tenetur minima officia in voluptatibus recusandae molestiae voluptatum
-                                dolorem, consectetur ipsum blanditiis animi. Quo, architecto vel?</p>
-                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                            <h3 class="card-title">
+                                <a href="#" tabindex="9">¿Quieres saber cuáles son los estrenos de cine de esta
+                                    semana?</a>
+                            </h3>
+                            <p class="card-text">
+                                Si quieres disfrutar de las últimas novedades del séptimo
+                                arte, te presentamos los estrenos de cine de esta semana.
+                                Podrás elegir entre diferentes géneros y propuestas, desde
+                                biopics musicales como Bob Marley: One Love, hasta películas
+                                de acción y fantasía como Madame Web o Kung Fu Panda 4.
+                                También hay opciones para los amantes del drama, como El color
+                                púrpura o La piscina, o para los que prefieren el terror, como
+                                Horror Park. No te pierdas la oportunidad de ver en la gran
+                                pantalla estas películas y muchas más que llegan a los cines
+                                esta semana.
+                            </p>
+                            <p class="card-text">
+                                <small class="text-body-secondary">Ana María López García</small>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -84,170 +95,241 @@
 
         <!-- Resto de noticias en dos columnas -->
         <section class="row my-3 py-2">
-
-            <h2>
-                Noticias
-            </h2>
+            <h2 id="noticias">Noticias</h2>
 
             <div class="col-6">
-
                 <article class="card border-bottom">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="../img/dune.bmp" class="card-img-top" alt="..." />
                     <div class="card-body">
-                        <h3 class="card-title"><a href="">Card title</a></h3>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, consequuntur? Provident
-                            corporis quae quam iste corrupti sed repellat illo impedit quis adipisci! Ut accusamus,
-                            maiores excepturi asperiores animi magnam tempora!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quia natus quaerat
-                            architecto eligendi laboriosam quo corrupti? Modi ipsam voluptas enim quisquam animi vel a
-                            laboriosam quo ducimus, totam perspiciatis.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, saepe ipsam enim excepturi
-                            quisquam exercitationem? Nemo, aspernatur? Iste officia laudantium error? Repellendus esse
-                            facilis est repudiandae porro? Nemo, expedita non!</p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum incidunt reprehenderit
-                        deleniti eaque at, repudiandae ipsa, voluptatem aperiam, assumenda officiis voluptatum. Atque
-                        placeat culpa harum quis aspernatur, minus quae nisi!
+                        <h3 class="card-title">
+                            <a href="#" tabindex="10">Crítica de Dune: una obra maestra de la ciencia ficción</a>
+                        </h3>
+                        <p class="card-text">
+                            Dune, la adaptación cinematográfica de la novela homónima de
+                            Frank Herbert, es una obra maestra de la ciencia ficción que nos
+                            sumerge en un universo fascinante y complejo. La película,
+                            dirigida por Denis Villeneuve, respeta el espíritu y la esencia
+                            del libro, al tiempo que ofrece una visión personal y
+                            actualizada de la historia. El reparto, encabezado por Timothée
+                            Chalamet, Rebecca Ferguson y Oscar Isaac, realiza unas
+                            interpretaciones magistrales que dan vida a los personajes con
+                            profundidad y emoción. La fotografía, la música y los efectos
+                            especiales son de una calidad excepcional y crean una atmósfera
+                            envolvente y cautivadora. Dune es una película que no solo
+                            entretiene, sino que también invita a reflexionar sobre temas
+                            como el poder, la religión, la ecología y el destino. Es una
+                            obra imprescindible para los amantes de la ciencia ficción y
+                            para todos los que quieran disfrutar de un cine de gran nivel
+                            artístico y narrativo.
+                        </p>
+                        <p class="card-text">
+                            <small class="text-body-secondary">Carlos Alberto Pérez Sánchez</small>
+                        </p>
                     </div>
                 </article>
 
                 <article class="card border-bottom">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="../img/netflix.bmp" class="card-img-top" alt="..." />
                     <div class="card-body">
-                        <h3 class="card-title"><a href="">Card title</a></h3>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi quia autem corrupti facilis
-                            id sint, amet recusandae neque nostrum esse doloribus obcaecati, unde quo possimus, expedita
-                            illum quasi maiores animi?</p>
+                        <h3 class="card-title">
+                            <a href="#" tabindex="12">Los mejores documentales de Netflix para amantes del cine</a>
+                        </h3>
+                        <p class="card-text">
+                            Si eres un apasionado del cine y quieres conocer más sobre su
+                            historia, sus géneros, sus directores y sus obras maestras,
+                            Netflix tiene una gran variedad de documentales que te harán
+                            disfrutar y aprender. Aquí te presentamos algunos de los mejores
+                            documentales de Netflix para amantes del cine que puedes ver en
+                            la plataforma
+                        </p>
+                        <p class="card-text">
+                            <small class="text-body-secondary">Elena Isabel Rodríguez Torres
+                            </small>
+                        </p>
                     </div>
                 </article>
 
                 <article class="card border-bottom">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="../img/pandemia.bmp" class="card-img-top" alt="..." />
                     <div class="card-body">
-                        <h3 class="card-title"><a href="">Card title</a></h3>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magni atque ipsam recusandae
-                            at repellat obcaecati quasi perferendis culpa. Praesentium odit minus voluptatem suscipit
-                            cupiditate consectetur maxime delectus, qui et.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non mollitia voluptates ipsum
-                            excepturi in accusamus sequi animi tempore doloribus recusandae suscipit amet ad ducimus
-                            autem quos, exercitationem pariatur ut vitae!
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis nam modi quam
-                            explicabo perferendis qui excepturi asperiores minima veniam, magnam, sapiente dolores
-                            expedita quae nisi nulla ex ipsam laboriosam enim.</p>
+                        <h3 class="card-title">
+                            <a href="#" tabindex="14">El cine post-pandemia: retos y oportunidades</a>
+                        </h3>
+                        <p class="card-text">
+                            La pandemia de covid-19 ha tenido un impacto devastador en la industria cinematográfica,
+                            obligando al cierre de salas, la cancelación de festivales y el retraso de estrenos. Sin
+                            embargo, también ha abierto nuevas posibilidades para el cine, como el auge de las
+                            plataformas de streaming, la experimentación con formatos híbridos y la revalorización de la
+                            experiencia colectiva. En este artículo, analizamos los principales retos y oportunidades
+                            que enfrenta el cine post-pandemia, y cómo los creadores, distribuidores y espectadores
+                            pueden adaptarse a los cambios que se avecinan.
+                        </p>
+                        <p class="card-text">
+                            <small class="text-body-secondary">Juan Manuel Gómez Fernández
+                            </small>
+                        </p>
                     </div>
                 </article>
             </div>
+
             <div class="col-6">
                 <article class="card border-bottom">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="../img/oscars.bmp" class="card-img-top" alt="..." />
                     <div class="card-body">
-                        <h3 class="card-title"><a href="">Card title</a></h3>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h3 class="card-title">
+                            <a href="#" tabindex="11">Las nominaciones a los Oscar 2024: sorpresas y decepciones</a>
+                        </h3>
+                        <p class="card-text">
+                            La Academia de Hollywood anunció hoy las nominaciones a los
+                            Oscar 2024, que se entregarán el próximo 25 de marzo. Entre las
+                            sorpresas destacan la presencia de dos películas de animación en
+                            la categoría de mejor película, Coco 2 y Spider-Man: Into the
+                            Spider-Verse 2, y la ausencia de actores latinos entre los
+                            candidatos a las estatuillas. Entre las decepciones, muchos
+                            esperaban que Dune, la adaptación de la novela de ciencia
+                            ficción de Frank Herbert, obtuviera más reconocimiento, pero
+                            solo logró cuatro nominaciones técnicas. También se quedó fuera
+                            del premio a la mejor dirección Denis Villeneuve, el director de
+                            la cinta.
+                        </p>
+                        <p class="card-text">
+                            <small class="text-body-secondary">Laura Patricia Martínez González
+                            </small>
+                        </p>
                     </div>
                 </article>
 
                 <article class="card border-bottom">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="../img/actores.bmp" class="card-img-top" alt="..." />
                     <div class="card-body">
-                        <h3 class="card-title"><a href="">Card title</a></h3>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit animi
-                            unde nobis inventore exercitationem quo, dignissimos voluptatum. Commodi animi magnam nam
-                            nihil aliquid, quos iure, quae voluptates, repellendus facilis atque?
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod commodi deserunt tenetur
-                            facilis non. Itaque, hic neque a ad quis facere magni distinctio vero temporibus, placeat
-                            sit voluptates vel ex!</p>
+                        <h3 class="card-title">
+                            <a href="#" tabindex="13">Los actores y actrices más influyentes del cine español</a>
+                        </h3>
+                        <p class="card-text">
+                            El cine español tiene una larga y rica historia, y ha dado al
+                            mundo algunos de los actores y actrices más influyentes de todos
+                            los tiempos. Desde los pioneros del cine mudo, como Segundo de
+                            Chomón o Margarita Xirgu, hasta las estrellas actuales, como
+                            Javier Bardem o Penélope Cruz, pasando por los iconos de la
+                            época dorada, como Sara Montiel o Fernando Rey, el cine español
+                            ha demostrado su talento, diversidad y creatividad. Estos son
+                            algunos de los nombres que han marcado el cine español con su
+                            arte y su carisma.
+                        </p>
+                        <p class="card-text">
+                            <small class="text-body-secondary">Pedro Luis Díaz Hernández
+                            </small>
+                        </p>
                     </div>
                 </article>
 
                 <article class="card border-bottom">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="../img/2025.bmp" class="card-img-top" alt="..." />
                     <div class="card-body">
-                        <h3 class="card-title"><a href="">Card title</a></h3>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eum at autem distinctio quae,
-                            dolorem voluptate, ducimus repudiandae nemo eaque delectus ab quasi in hic neque optio omnis
-                            earum impedit!
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt temporibus, odit quos
-                            delectus ab dolorem illum expedita enim pariatur consequatur nesciunt doloremque architecto
-                            minima, adipisci accusamus, dignissimos dolores. Mollitia, suscipit.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sed dolor eveniet.
-                            Temporibus, in. Dolorem accusamus nesciunt consequatur pariatur ipsum, aut dolore! Odit
-                            voluptatibus suscipit cum architecto ipsa velit doloribus.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus ipsum, possimus
-                            dolore, error nobis praesentium quibusdam repellendus optio odit officiis laboriosam fugiat
-                            accusamus velit voluptates sint quidem! Expedita, quam?</p>
+                        <h3 class="card-title">
+                            <a href="#" tabindex="15">Las películas más esperadas de 2025</a>
+                        </h3>
+                        <p class="card-text">
+                            El año 2025 promete ser un gran año para el cine, con varias películas que ya están
+                            generando expectación entre los aficionados. Algunas de las más esperadas son: Avatar 3,
+                            Indiana Jones 5, Black Panther: Wakanda Forever, Jurassic World: Dominion, The Matrix 4.
+                        </p>
+                        <p class="card-text">
+                            <small class="text-body-secondary">Sara Cristina Jiménez Ruiz
+                            </small>
+                        </p>
                     </div>
                 </article>
             </div>
         </section>
 
-        <!-- Destacados --> 
+        <!-- Destacados -->
         <section class="row my-3 py-2">
-
-            <h2>
-                Destacados
-            </h2>
+            <h2 id="destacados">Destacados</h2>
 
             <article class="card col-3">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="../img/nightmare.bmp" class="card-img-top" alt="..." />
                 <div class="card-body">
-                    <h3 class="card-title"><a href="">Card title</a></h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <h3 class="card-title"><a href="#" tabindex="16">¡Ya está aquí el tráiler de Nightmare Alley!</a>
+                    </h3>
+                    <p class="card-text">
+                        No te pierdas las primeras imágenes de este thriller psicológico protagonizado por Bradley
+                        Cooper y Cate Blanchett.
+                    </p>
+                    <p class="card-text">
+                        <small class="text-body-secondary">Miguel Ángel García López</small>
+                    </p>
                 </div>
             </article>
 
             <article class="card col-3">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="../img/matrix.bmp" class="card-img-top" alt="..." />
                 <div class="card-body">
-                    <h3 class="card-title"><a href="">Card title</a></h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <h3 class="card-title"><a href="#" tabindex="17"> La saga Matrix vuelve a la gran pantalla</a></h3>
+                    <p class="card-text">
+                        con Matrix Resurrections, la cuarta entrega dirigida por Lana Wachowski. Keanu Reeves y
+                        Carrie-Anne Moss retoman sus icónicos papeles de Neo y Trinity en esta esperada secuela.
+                    </p>
+                    <p class="card-text">
+                        <small class="text-body-secondary">María José Sánchez Pérez</small>
+                    </p>
                 </div>
             </article>
 
             <article class="card col-3">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="../img/dune2.bmp" class="card-img-top" alt="..." />
                 <div class="card-body">
-                    <h3 class="card-title"><a href="">Card title</a></h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <h3 class="card-title"><a href="#" tabindex="18">Dune arrasa en la taquilla mundial</a></h3>
+                    <p class="card-text">
+                        y se convierte en el mejor estreno de la historia para una película de ciencia ficción. La
+                        adaptación de la novela de Frank Herbert ha recibido el aplauso de la crítica y el público.
+                    </p>
+                    <p class="card-text">
+                        <small class="text-body-secondary">José Antonio Rodríguez Martínez</small>
+                    </p>
                 </div>
             </article>
 
             <article class="card col-3">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="../img/witcher.bmp" class="card-img-top" alt="..." />
                 <div class="card-body">
-                    <h3 class="card-title"><a href="">Card title</a></h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <h3 class="card-title"><a href="#" tabindex="19">Netflix anuncia la fecha de estreno de la segunda
+                            temporada de The Witcher</a></h3>
+                    <p class="card-text">
+                        la serie basada en los libros de Andrzej Sapkowski. Henry Cavill volverá a encarnar al brujo
+                        Geralt de Rivia en esta nueva aventura fantástica.
+                    </p>
+                    <p class="card-text">
+                        <small class="text-body-secondary">Julia Elena Martínez Rodríguez</small>
+                    </p>
                 </div>
             </article>
-
         </section>
-
     </main>
 
     <!-- Footer -->
-    <footer class="py-3 my-5">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Noticias</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Destacados</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    <footer class="py-3 my-5 border-top">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3" role="navigation">
+            <li class="nav-item" role="menuitem">
+                <a href="#" class="nav-link px-2 text-body-secondary" tabindex="20">Home</a>
+            </li>
+            <li class="nav-item" role="menuitem">
+                <a href="#" class="nav-link px-2 text-body-secondary" tabindex="21">Noticias</a>
+            </li>
+            <li class="nav-item" role="menuitem">
+                <a href="#" class="nav-link px-2 text-body-secondary" tabindex="22">Destacados</a>
+            </li>
+            <li class="nav-item" role="menuitem">
+                <a href="#" class="nav-link px-2 text-body-secondary" tabindex="23">FAQs</a>
+            </li>
+            <li class="nav-item" role="menuitem">
+                <a href="#" class="nav-link px-2 text-body-secondary" tabindex="24">About</a>
+            </li>
         </ul>
-        <p class="text-center text-body-secondary">&copy; 2024 Aldara Fernandez</p>
+        <p class="text-center text-body-secondary">
+            &copy; 2024 Aldara Fernandez
+        </p>
     </footer>
-
 </body>
 
 </html>
