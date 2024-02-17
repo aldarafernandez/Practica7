@@ -13,6 +13,7 @@ h1{
 h1 a{
     font-size: 2em !important;
     font-weight: 700;
+    text-decoration: none !important;
 }
 .col-6{
     margin: 0;
