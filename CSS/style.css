@@ -33,3 +33,6 @@ li a{
 a:hover{
     text-decoration: underline;
 }
+.text-body-secondary{
+    color: rgb(108, 108, 108) !important;
+}
